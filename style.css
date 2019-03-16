@@ -1,0 +1,71 @@
+@font-face{
+    src: url(font/Lato/Lato-Light.ttf);
+    font-family: lato;
+}
+html{
+    scroll-behavior: smooth;
+}
+.text-color{
+    color:#19196F;
+}
+.navbar {
+    background: transparent !important;
+    box-shadow: 2px 2px 5px #19196F;
+    opacity: 0.9;
+    transition:0.5s;
+}
+.navbar.scrolled {
+    background:white !important;
+    transition:0.5s;
+}
+.navbar .nav-item {
+    font-size: 1.4rem;
+    padding-right: 20px; 
+}
+
+/* CAROUSEL */
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+}
+
+/* CARD / BOX */
+.contact{
+    /* margin-left: auto; */
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+}
+footer{
+    font-family: lato;
+}
+.firstsec, .secondsec, .thirdsec{
+    text-align: left;
+    padding: 3%;
+    /* border: 1px solid black; */
+}
+
+/* Services */
+.services{
+    background: url("img/services.jpg") no-repeat center top fixed;
+    background-size: cover;
+    min-height: 500px; 
+}
+
+/* COMMENTS */
+.jumpbutron img{
+    width: 50%;
+    margin-left: 30%;
+}
+
+/* FOOTER */
+.main-footer{
+    padding: 5%;
+    background-color: #333333; 
+    color: white;
+    height: 200%;
+}
+.footer-contact{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
